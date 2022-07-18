@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact me</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+
+  </head>
+  <body>
+    <form action="index.html" method="get" >
+      <label>Name:
+        <input type="text" name="Name" required="required"/>
+      </label><br>
+      <label>Phone number:
+        <input type="text" name="Number" required="required"/>
+      </label><br>
+      <label>Password:
+        <input type="password" name="password" required="required"/>
+      </label><br>
+      <label>Comments:
+        <textarea name="comments" placeholder="Enter your comments..."></textarea>
+      </label><br>
+      <fieldset>
+        <legend>Contacting preference</legend>
+        <input type="radio" name="contact" value="phonenum">Phone Number <br>
+        <input type="radio" name="contact" value="email">Email <br>
+        <input type="radio" name="contact" value="Facetime">Face Time <br>
+      </fieldset>
+      <label>Color pereference:
+        <input type="checkbox" name="col" value="Red">Red
+        <input type="checkbox" name="col" value="Green">Green
+        <input type="checkbox" name="col" value="Blue">Blue
+      </label><br>
+      <label>Current Month:
+        <select name="month">
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+      </label><br>
+      <label>Upload Photo:
+        <input type="file" name="photo">
+        <input type="submit" value="Upload">
+      </label>
+      <br>
+      <input type="image" src="https://us.123rf.com/450wm/proximostock/proximostock2103/proximostock210300259/166222548-horizontal-pink-button-on-white-background.jpg?ver=6" width="=80" height="50">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color:#FFDEDE;
+  }
+hr{
+
+    border-style: dotted none none none;
+    width: 10%;
+    border-width: 5px;
+    border-color: white;
+  }
+h1,h3{
+  color:#A10035;
+}
+#Name{
+  color:black;
+}
+label{
+  display:block;
+}
+fieldset{
+  width: 20%;
+}
+input[type="text"]{
+  width: 150px;
+}
+textarea{
+  height: 15px;
+}
